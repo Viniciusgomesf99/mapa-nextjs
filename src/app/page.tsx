@@ -83,7 +83,7 @@ export default function Home() {
           <iframe
             width="100%"
             height="100%"
-            src={`https://www.google.com/maps/embed/v1/view?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&center=${userLocation.lat},${userLocation.lng}&zoom=14`}
+            src={`https://www.google.com/maps/embed/v1/view?key=AIzaSyDSWc8mCBZFiPEYWoIrTaGYNElBwGWUpXY&center=${userLocation.lat},${userLocation.lng}&zoom=14`}
             allowFullScreen
           ></iframe>
         </div>
